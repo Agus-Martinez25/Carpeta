@@ -1,0 +1,11 @@
+/* Asegura que el contenido no se oculte detrás del navbar */
+body {
+  padding-top: 4rem;
+}
+
+/* Ajustes para Carousel de Bootstrap */
+.carousel-item img {
+  max-height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
